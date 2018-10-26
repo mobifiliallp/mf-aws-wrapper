@@ -1,0 +1,29 @@
+{
+  "name": "mf-aws-wrapper",
+  "version": "1.0.0",
+  "description": "Mobifilia Common - AWS SDK Wrapper",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "author": "Gopal Raichur",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "^2.343.0",
+    "config": "^1.31.0",
+    "mf-logwrapper": "git+https://github.com/mobifiliallp/mf-logwrapper.git#semver:^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-mfnode": "git+https://github.com/mobifiliallp/eslint-config-mfnode.git#semver:^1.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-mfnode"
+  }
+}
